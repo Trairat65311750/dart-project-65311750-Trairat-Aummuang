@@ -3,9 +3,7 @@ import 'dart:io';
 void main() {
   print('Please enter a character:');
   String character = stdin.readLineSync()!;
-
   String vowels = 'aeiouAEIOU';
-
   if (character.length == 1) {
     if (vowels.contains(character)) {
       print('$character is a vowel.');
