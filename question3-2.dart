@@ -5,7 +5,6 @@ bool isEven(int number) {
 void main() {
   print('Please enter a number:');
   int number = int.parse(stdin.readLineSync()!);
-  
   if (isEven(number)) {
     print('True');
   } else {
